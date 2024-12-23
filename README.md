@@ -1,0 +1,1 @@
+This repository demonstrates a common ActionScript 3 bug: a null pointer exception.  The `handleComplete` function attempts to access `myObject.someProperty` without checking if `myObject` is null.  This leads to an error if `myObject` hasn't been properly initialized. The solution demonstrates how to avoid this error by adding a null check.
